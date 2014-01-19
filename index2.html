@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>three.js パーティクル／点</title>
+	<script src="./mrdoob-three.js-4862f5f/build/three.js"></script>
+	<script src="./mrdoob-three.js-4862f5f/examples/js/Detector.js"></script>
+	<script src="./mrdoob-three.js-4862f5f/examples/js/controls/TrackballControls.js"></script>
+	<script src="./popup.js"></script>
+	<script src="./ball.js"></script>
+	
+	<script>
+		//document.addEventListener("DOMContentLoaded", function()
+		{
+			//initPopup();
+			//addPopup("containerW");
+			//fileDisp("sourceBox", "./ball.js");
+
+			//three.jsプログラム
+		//	main();
+		//});
+
+		/*window.onscroll = function()
+		{
+			scroll("containerW");
+		}*/
+
+		document.addEventListener("DOMContentLoaded", function(){
+			main();
+		});
+
+
+	</script>
+</head>
+<body>
+	<div class="box" id="sourceW" unselectable="on">
+		<pre class="brush:jscript;" id="sourceBox">
+		</pre>
+	</div>
+	<div class="box container" id="containerW" style="left:500px;top:10px;width:510px;height:510px;" unselectable="on">
+		<div id="container" style="margin-left:5px;margin-top:5px;width:500px;height:500px;"></div>
+	</div>
+</body>
+</html>
+
